@@ -30,7 +30,7 @@ class TextForm extends React.Component {
       this.setState({audio_url:response.data.audio_url});
             axios({
             method: 'post',
-            url: 'http://14b74a137ae4.ngrok.io/predict',
+            url: 'http://a6f082da2790.ngrok.io/predict',
             data: {
               persona_id:0,
               audio_url:this.state.audio_url}
